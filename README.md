@@ -34,6 +34,7 @@ It randomly selects a crossover point and combines the substrings of parents bef
 - run_genetic_algorithm: This method orchestrates the entire genetic algorithm, calling all the above methods when necessary. It initializes a population, evolves it through generations using selection, crossover, mutation, and elitism, and records the average fitness over generations. The loop iterates for num_generations, updating the population and fitness scores accordingly. It returns the average fitness score throughout all generations in the form of an array, which can be used for plotting graphs afterwards.
 
 
+
 Running the script:
 
 The run_genetic_algorithm method is called for each individual search problem, supplying the fitness method (e.g. fitness_one_max) as an argument to determine which search problem is being ran. 
