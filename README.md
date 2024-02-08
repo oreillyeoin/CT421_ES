@@ -36,4 +36,3 @@ It randomly selects a crossover point and combines the substrings of parents bef
 
 Running the script
 The run_genetic_algorithm method is called for each individual search problem, supplying the fitness method (e.g. fitness_one_max) as an argument to determine which search problem is being ran. 
-![image](https://github.com/oreillyeoin/CT421_ES/assets/145143082/0ed33efe-fec5-4f80-91e8-561554aae43a)
